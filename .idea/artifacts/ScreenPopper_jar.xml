@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScreenPopper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ScreenPopper_jar</output-path>
+    <root id="archive" name="ScreenPopper.jar">
+      <element id="module-output" name="ScreenPopper" />
+    </root>
+  </artifact>
+</component>
