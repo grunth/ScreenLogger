@@ -7,4 +7,5 @@ is too problematic. To solve this problem, I wrote this small and very smart pro
 It does not take up memory, works instantly and does not annoy with unnecessary settings.
 It will be useful for programmers, technical support workers, everyone who needs to 
 quickly delve into new functionality for themselves and possibly for some other tasks.
+
 ![image](https://user-images.githubusercontent.com/17827778/116969386-db6c3e80-acbe-11eb-9551-2bbbdbfe4b67.png)
