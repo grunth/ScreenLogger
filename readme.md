@@ -1,4 +1,4 @@
-Screen popper.
+Screen logger.
 One of my old projects in Java for Windows. It often happens that at a new job somebody
 explained something to you and you want to keep what is happening on the screen in order 
 to restore your knowledge later or write instructions for yourself. I did not find a 

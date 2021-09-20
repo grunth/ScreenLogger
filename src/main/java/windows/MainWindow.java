@@ -126,7 +126,7 @@ public class MainWindow extends JFrame {
 
         newThread.msuspend();
 
-        setTitle("Screen popper");
+        setTitle("Screen logger");
         setIconImage(Logo);
 
         if (SystemTray.isSupported()) {
@@ -231,7 +231,7 @@ public class MainWindow extends JFrame {
 
     //Создание иконки в трее
     private void createTrayIcon() {
-        iconTr = new TrayIcon(Icon_OFF, "Screenpopper v.1.1.0");
+        iconTr = new TrayIcon(Icon_OFF, "ScreenLogger v.1.1.0");
         iconTr.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ev) {
                 setVisible(true);
@@ -290,7 +290,7 @@ public class MainWindow extends JFrame {
         try {
             sT.add(iconTr);
             if (chetTray == false) {
-                iconTr.displayMessage("Screen popper", "Программа все еще запущена!", TrayIcon.MessageType.INFO);
+                iconTr.displayMessage("Screen logger", "Программа все еще запущена!", TrayIcon.MessageType.INFO);
             }
             chetTray = true;
         } catch (AWTException ex) {
